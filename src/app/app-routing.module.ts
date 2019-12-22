@@ -7,7 +7,6 @@ const routes: Routes = [
   {
     path: '',
     component: UserComponent,
-    loadChildren: () => import('src/app/module/user/user.module').then(m => m.UserModule)
   },
   {
     path: 'out',
