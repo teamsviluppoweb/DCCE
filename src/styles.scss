@@ -39,24 +39,35 @@ strong {
 
 .container {
   margin: 0 auto;
-  width: 1800px;
   max-width: 1800px;
 }
 
-.menu-container {
+
+.nav-container {
+  max-width: 1800px;
+  width: 1800px;
+  margin: 0 auto;
 }
 
+
+.menu-container {
+  margin: 0 auto;
+}
+
+
+
 .container-page {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 10px;
 }
 .container-title {
   color: #1c2024;
+  margin-bottom: 0;
+  margin-top: 5px;
   padding-right: 10px;
 }
 
 .container-text {
-  width: 58.33333%!important;
+  text-align: justify;
 }
 .stronger {
   color: #5a6772;

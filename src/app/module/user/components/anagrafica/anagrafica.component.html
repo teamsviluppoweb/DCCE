@@ -1,12 +1,11 @@
-<div class="container-page">
+<div class="container-page"s>
   <div fxLayout="row">
     <h1 class="container-title">
       Anagrafica
     </h1>
   </div>
-
   <div fxLayout="row">
-    <div fxFlex="70">
+    <div fxFlex="50" fxFlex.xs="100" fxFlex.lt-md="100">
       <p>
         I dati presenti nella sezione anagrafica provengono dall’autenticazione e non sono
         modificabili. Puoi modificare i dati della residenza e dei recapiti ai fini di eventuali contatti da
@@ -15,15 +14,15 @@
     </div>
   </div>
 
-  <mat-divider class="divider"></mat-divider>
+  <mat-divider></mat-divider>
 
-  <div fxLayout="row" fxLayout.xs="column">
-  <div fxFlex="70">
+  <div fxLayout="row" fxLayout.lt-lg="column" fxLayout.xs="column">
+  <div fxFlex fxLayout="column">
     <h2 >Dati anagrafici</h2>
 
     <div class="anagrafica-form" fxLayout="column">
 
-      <div fxLayout="row" fxLayoutGap="10px">
+      <div fxLayout="row"  fxLayout.xs="column">
 
         <mat-form-field appearance="outline" fxFlex>
           <mat-label>Cognome</mat-label>
@@ -42,7 +41,7 @@
 
       </div>
 
-      <div fxLayout="row" fxLayoutGap="10px">
+      <div fxLayout="row"  fxLayout.xs="column">
 
         <mat-form-field appearance="outline" fxFlex>
           <mat-label>Stato nascita</mat-label>
@@ -61,7 +60,7 @@
 
       </div>
 
-      <div fxLayout="row" fxLayoutGap="10px">
+      <div fxLayout="row"  fxLayout.xs="column">
 
         <mat-form-field appearance="outline" fxFlex>
           <mat-label>Domicilio digitale</mat-label>
@@ -78,7 +77,7 @@
 
     <div class="anagrafica-form" fxLayout="column">
 
-      <div fxLayout="row" fxLayoutGap="10px">
+      <div fxLayout="row"  fxLayout.xs="column">
 
         <mat-form-field appearance="outline" fxFlex>
           <mat-label>Telefono</mat-label>
@@ -92,7 +91,7 @@
 
       </div>
 
-      <div fxLayout="row" fxLayoutGap="10px">
+      <div fxLayout="row"  fxLayout.xs="column">
 
         <mat-form-field appearance="outline" fxFlex>
           <mat-label>Email PEC</mat-label>
@@ -110,7 +109,7 @@
 
     <div class="anagrafica-form" fxLayout="column">
 
-      <div fxLayout="row" fxLayoutGap="10px">
+      <div fxLayout="row"  fxLayout.xs="column">
 
         <mat-form-field appearance="outline" fxFlex>
           <mat-label>Stato</mat-label>
@@ -136,7 +135,7 @@
 
       </div>
 
-      <div fxLayout="row" fxLayoutGap="10px">
+      <div fxLayout="row"  fxLayout.xs="column">
 
         <mat-form-field appearance="outline" fxFlex>
           <mat-label>Indirizzo</mat-label>
@@ -151,7 +150,7 @@
 
     <div class="anagrafica-form" fxLayout="column">
 
-      <div fxLayout="row" fxLayoutGap="10px">
+      <div fxLayout="row"  fxLayout.xs="column">
 
         <mat-form-field appearance="outline" fxFlex>
           <mat-label>Stato</mat-label>
@@ -177,7 +176,7 @@
 
       </div>
 
-      <div fxLayout="row" fxLayoutGap="10px">
+      <div fxLayout="row"  fxLayout.xs="column">
 
         <mat-form-field appearance="outline" fxFlex>
           <mat-label>Indirizzo</mat-label>
@@ -186,8 +185,8 @@
       </div>
     </div>
   </div>
-  <div>
-    <div class="anagrafica-form" fxLayout="column">
+  <div fxFlex="50" class="anagrafica-form">
+    <div fxLayout="column" class="paragrafo" >
       <p>
         Si ricorda che la compilazione del presente modulo è ritenuta equivalente alle istanze e
         alle dichiarazioni sottoscritte con firma autografa apposta in presenza del dipendente addetto
