@@ -2,19 +2,17 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import "assets/scss/colors";
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #fafafa}
 
 .mat-toolbar {
   background-color: $primary;
   color: #FFFFFF;
-
 
   .mat-icon {
     color: #FFFFFF;
     padding-bottom: 3px;
     margin-right: 3px;
   }
-
   span {
     color: #FFFFFF;
     font-size: medium;
@@ -25,5 +23,36 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 p {
+  color: #5a6772;
+  font-size: larger;
+  line-height: 1.55;
+}
+
+strong {
+  color: #5a6772;
+  font-weight: bolder;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1800px;
+  max-width: 1800px;
+}
+
+.menu-container {
+}
+
+.container-page {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.container-title {
+  color: #1c2024;
+  padding-right: 10px;
+}
+.container-text {
+  width: 58.33333%!important;
+}
+.stronger {
   color: #5a6772;
 }
