@@ -1,16 +1,16 @@
 <mat-toolbar>
     <div class="container">
       <div class="menu-container" fxLayout="row">
-        <button mat-button>
-          <span>HOME</span>
+        <button  [routerLink]="['/']" mat-button>
+          <span >HOME</span>
         </button>
-        <button mat-button>
-          <span>LE MIE DOMANDE</span>
+        <button [routerLink]="['/mie-domande']" mat-button>
+          <span  >LE MIE DOMANDE</span>
         </button>
         <button mat-button>
           <span>PRESENTA UNA DOMANDA</span>
         </button>
-        <button mat-button>
+        <button   [routerLink]="['/dati-anagrafici']" mat-button>
           <span>PROFILO</span>
         </button>
       </div>
