@@ -6,11 +6,12 @@ import {SharedModule} from "../../shared/shared.module";
 import { HomeComponent } from './components/home/home.component';
 import {UserRoutesModule} from "./user-routes.module";
 import {MieDomandeComponent} from "./components/mie-domande/mie-domande.component";
+import {AnagraficaComponent} from "./components/anagrafica/anagrafica.component";
 
 
 
 @NgModule({
-  declarations: [MainMenuComponent, SecondMenuComponent, HomeComponent, MieDomandeComponent],
+  declarations: [MainMenuComponent, SecondMenuComponent, HomeComponent, MieDomandeComponent, AnagraficaComponent],
   exports: [
     MainMenuComponent,
     SecondMenuComponent
