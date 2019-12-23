@@ -28,6 +28,10 @@ p {
   line-height: 1.55;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 strong {
   color: #5a6772;
   font-weight: bolder;
@@ -50,9 +54,20 @@ strong {
   color: #1c2024;
   padding-right: 10px;
 }
+
 .container-text {
   width: 58.33333%!important;
 }
 .stronger {
   color: #5a6772;
 }
+
+.toolbar-concorsi {
+  background-color: #f1f1f1;
+  color: #1c2024;
+}
+
+.concorso-card {
+  margin: 20px;
+}
+
