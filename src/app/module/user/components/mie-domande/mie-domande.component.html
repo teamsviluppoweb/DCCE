@@ -1,9 +1,9 @@
-<div class="container-page">
+<div class="container-page" fxFlex="50">
+
   <div fxLayout="row">
     <h1 class="container-title">
       Domande presenti a sistema
     </h1>
-
   </div>
 
   <div class="container-text" *ngIf="1 == 2">
@@ -12,16 +12,65 @@
     </p>
   </div>
 
-  <div class="container-text">
-    <p>
-      Scegli il concorso di interesse
-    </p>
+  <div class="container-concorsi">
+
+    <div class="container-text">
+      <p>
+        Scegli il concorso di interesse
+      </p>
+    </div>
+
+    <div class="card-container mat-elevation-z8">
+
+      <div fxLayout="column">
+        <strong class="titolo-concorso">Concorso ILG</strong>
+
+        <div fxLayout="row">
+          <strong class="sub-text descrizione">Data scadenza termine di presentazione</strong> <strong class="sub-text data">12/11/2019</strong> <mat-icon>date_range</mat-icon>
+        </div>
+        <div fxLayout="row">
+          <strong class="sub-text descrizione">La domanda è stata presentata in data</strong> <strong class="sub-text data">12/12/2019</strong> <mat-icon>calendar_today</mat-icon>
+        </div>
+
+        <div class="btn-container">
+          <button class="btn-edit" mat-flat-button>MODIFICA</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <mat-divider class="divider"></mat-divider>
+
+    <div class="search-container mat-elevation-z8" fxLayout="column">
+      <h3 class="title-stato-concorso">CONCORSO CONCORSO CHIUSO</h3>
+      <mat-form-field fxFlex appearance="outline">
+        <input matInput color="primary" placeholder="Cerca concorso">
+        <mat-icon matPrefix>search</mat-icon>
+      </mat-form-field>
+    </div>
+
+    <div class="card-container mat-elevation-z8">
+
+      <div fxLayout="column">
+        <strong class="titolo-concorso">Concorso ILG</strong>
+
+        <div fxLayout="row">
+          <strong class="sub-text descrizione">Data scadenza termine di presentazione</strong> <strong class="sub-text data">12/11/2019</strong> <mat-icon>date_range</mat-icon>
+        </div>
+        <div fxLayout="row">
+          <strong class="sub-text descrizione">La domanda è stata presentata in data</strong> <strong class="sub-text data">12/12/2019</strong> <mat-icon>calendar_today</mat-icon>
+        </div>
+
+        <div class="btn-container">
+          <button class="btn-edit" mat-flat-button>MODIFICA</button>
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
-
-  <mat-toolbar class="toolbar-concorsi">
-    Concorso ancora aperto
-  </mat-toolbar>
-
 
 
 </div>

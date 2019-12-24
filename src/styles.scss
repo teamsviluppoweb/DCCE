@@ -2,7 +2,7 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import "assets/scss/colors";
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #fafafa}
+body { margin: 0; font-family: 'Titillium Web', sans-serif; background-color: #fafafa}
 
 .mat-toolbar {
   background-color: $primary;
@@ -60,7 +60,7 @@ strong {
   margin: 10px;
 }
 .container-title {
-  color: #1c2024;
+  color: #5a6772;
   margin-bottom: 0;
   margin-top: 5px;
   padding-right: 10px;

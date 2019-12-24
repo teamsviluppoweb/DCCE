@@ -6,7 +6,6 @@
 }
 
 .card-container {
-  margin: 10px;
 }
 
 .card-titoloConcorso {
@@ -20,4 +19,77 @@
   height: 40px;
   font-size: 20px;
   background-color: #0073e6;
+}
+
+.card-container {
+  border-left: 2px solid #00c5ca;
+  border-right: 2px solid #00c5ca;
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+
+.titolo-concorso {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.sub-text{
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.descrizione {
+  font-weight: 200;
+}
+
+.descrizione-strong {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.data {
+  margin-left: auto;
+  padding-right: 5px;
+}
+
+mat-icon {
+  color: #5a6772;
+  margin-top: 14px;
+}
+
+
+.btn-container {
+  padding-top: 40px;
+  margin-left: auto;
+}
+
+.btn-edit {
+  background-color: #0966ca;
+  color: #FFFFFF;
+  height: 48px;
+  width: 135px;
+}
+
+.search-container {
+  padding: 10px 10px 0;
+  margin-bottom: 0;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.title-stato-concorso {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.container-concorsi {
+
+}
+
+.divider {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
